@@ -29,7 +29,9 @@ OR
 [Discord Developer Portal](https://discord.com/developers/applications)
 
 ## Deployment
-Run the following command
+* Create `archive` directory in same place as application and place any files 
+you wish to upload here
+* Run the following command
 
 ```
 docker-compose up -d
@@ -54,6 +56,15 @@ generates new file with all links in `archive` channel
 
 
 ### Common questions and issues
+* Q: What files can I upload?
+* A: This bot will upload any file as long as Discord allows it, keep in mind
+file limits (around 8MiB as of 2021). For best experience use multi part archive
+with password.
+
 * Q: Why my files are stripped of original name or other characters?
 * A: Incomplete Discord API, nothing can be done about it at this moment.
 See https://github.com/discord/discord-api-docs/issues/2102 for details
+
+* Q: How do I download files uploaded by bot on another machine?
+* A: See `extras/download.ps1` for Windows users, you will need to adjust it to
+fit your needs
