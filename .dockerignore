@@ -1,0 +1,6 @@
+archive/
+extras/
+.vscode/
+.git/
+
+.env
