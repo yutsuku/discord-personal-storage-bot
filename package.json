@@ -1,0 +1,26 @@
+{
+  "name": "discord-personal-storage-bot",
+  "version": "1.0.0",
+  "description": "very bad bot",
+  "main": "build/main.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node build/main.js"
+  },
+  "keywords": [
+    "discordjs",
+    "cloud storage",
+    "bot"
+  ],
+  "author": "moh",
+  "license": "WTFPL"
+}

@@ -1,0 +1,13 @@
+version: "3"
+services:
+    discord-personal-storage-bot:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: discord-personal-storage-bot:latest
+        container_name: discord-personal-storage-bot
+        environment:
+            token: "${token}"
+        tty: true
+        volumes:
+            - '.:/app'

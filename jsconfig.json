@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
